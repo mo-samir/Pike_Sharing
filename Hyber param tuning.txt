@@ -1,0 +1,65 @@
+iterations = 2000
+learning_rate = 0.1
+hidden_nodes = 2
+Training loss: 0.264 ... Validation loss: 0.438
+----------
+iterations = 3000
+learning_rate = 0.1
+hidden_nodes = 2
+Training loss: 0.254 ... Validation loss: 0.417
+----------
+iterations = 4000
+learning_rate = 0.1
+hidden_nodes = 2
+Training loss: 0.262 ... Validation loss: 0.435
+LOSSES INCREASED
+start changing hidden nodes at 3000 iteration
+-------------
+iterations = 3000
+learning_rate = 0.1
+hidden_nodes = 20
+Training loss: 0.265 ... Validation loss: 0.436
+worse...inc a bit more
+-----------
+iterations = 3000
+learning_rate = 0.1
+hidden_nodes = 30
+Training loss: 0.268 ... Validation loss: 0.448
+still poor
+inc LR for 20 hidden layers
+-------------
+iterations = 3000
+learning_rate = 0.5
+hidden_nodes = 20
+Training loss: 0.088 ... Validation loss: 0.164
+great, noe let's inc LR a bit more and see
+-------------
+iterations = 3000
+learning_rate = 1
+hidden_nodes = 20
+Training loss: 0.724 ... Validation loss: 1.183
+disaster :) dec LR 
+------------
+iterations = 3000
+learning_rate = 0.7
+hidden_nodes = 20
+Training loss: 0.066 ... Validation loss: 0.154
+wohoooo!
+----------
+iterations = 3000
+learning_rate = 0.8
+hidden_nodes = 20
+Training loss: 0.068 ... Validation loss: 0.146
+better, try to inc hidden units
+------------
+iterations = 3000
+learning_rate = 0.8
+hidden_nodes = 25
+Training loss: 0.084 ... Validation loss: 0.221
+rollback hidden units and inc iterations instead
+------------
+iterations = 3500
+learning_rate = 0.8
+hidden_nodes = 20
+Training loss: 0.066 ... Validation loss: 0.147
+not much of an improvemnt
